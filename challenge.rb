@@ -8,6 +8,10 @@
 33
 65.89
 
+puts "Hello World".class.name
+puts 33.class.name
+puts 33.class.name
+
 # Question 2: Booleans
 # What would be the result of executing the below statements
 
@@ -21,6 +25,10 @@ end
 # 2.2 Substitue nil && 88 for 33 && 55 above. What's the output?
 # 2.4 Substitue 63.4 < 64. What's the output?
 
+2.1 - false
+2.2 - false
+2.4 - true
+
 # Question 3 :Strings
 
 # How would you (Yes, you can look up the String methods!):
@@ -29,6 +37,10 @@ end
 # 3.2. determine if the length of a string?
 # 3.3. Go from the string "eels in my hovercraft" to "fish in my sink" but don't
 # change the string "eels in my hovercraft"
+
+3.1 "string"[match_str]
+3.2 "string".length
+3.3 puts "eels in my hovercraft" >> "fish in my sink"
 
 
 # Question 4 : Variables
@@ -42,6 +54,8 @@ vehicle = "4 wheel Bus"
 # 4.3 Create a NEW string from the string in 4.2 that will be
 # "6 wheel tank that shoots rainbow bunnnies"
 
+4.1
+
 # Question 5 : Loop
 # - write a loop that guesses your age.
 # - Only allow 4 guesses
@@ -50,6 +64,8 @@ vehicle = "4 wheel Bus"
 # - aaaah maaan c'mon, huh, WTF
 # - I'm not kidding, say unkind works to a user that thinks your 10 years older
 #   than you are.
+
+while age != guess
 
 # Bonus Question: Who said this?
 
